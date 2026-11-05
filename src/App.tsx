@@ -1,5 +1,6 @@
-
+import image1 from "../src/assets/Screenshot.png"
 import UserInfo from "./compoments/infos"
+
 function App() {
 
   const user = {
@@ -8,7 +9,7 @@ function App() {
     email : "wetefranck@gmail.com",
     age : 23,
     bio : "sddfgyfuhmgfkdmlfbgjhtk;rgfld",
-    avatar : "../assets/Screenshot.png"
+    avatar : image1
   }
 
   return (

@@ -1,5 +1,4 @@
 import { type User } from "./interface"
-import image1 from "../assets/Screenshot.png"
 
 
 export default function UserInfo ({id, username, email, age, bio, avatar} : User) {
